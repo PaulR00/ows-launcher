@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jnlp
-    spec="1.0+"
-    codebase="https://github.com/PaulR00/ows-launcher/releases/download/v1.0.0/ows-playwright-1.0-shaded.jar"
-    href="app.jnlp">
+<jnlp spec="1.0+">
+  <information>
+    <title>My Application</title>
+    <vendor>My Company</vendor>
+    <description>WebStart Application</description>
+  </information>
 
-    <information>
-        <title>My Application</title>
-        <vendor>My Company</vendor>
-        <description>WebStart Application</description>
-    </information>
+  <security>
+    <all-permissions/>
+  </security>
 
-    <security>
-        <all-permissions/>
-    </security>
+  <resources>
+    <j2se version="8+"/>
+    <jar href="https://github.com/PaulR00/ows-launcher/releases/download/v1.0.0/ows-playwright-1.0-shaded.jar" main="true"/>
+  </resources>
 
-    <resources>
-        <j2se version="8+" />
-        <jar href="ows-playwright-1.0.jar" main="true"/>
-    </resources>
-
-    <application-desc main-class="demo.Main"/>
-    </application-desc>
-
+  <application-desc main-class="demo.Main"/>
 </jnlp>
