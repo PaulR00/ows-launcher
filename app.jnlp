@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp
+    spec="1.0+"
+    codebase="http://82.165.153.185/"
+    href="app.jnlp">
+
+    <information>
+        <title>My Application</title>
+        <vendor>My Company</vendor>
+        <description>WebStart Application</description>
+    </information>
+
+    <security>
+        <all-permissions/>
+    </security>
+
+    <resources>
+        <j2se version="8+" />
+        <jar href="ows-playwright-1.0.jar" main="true"/>
+    </resources>
+
+    <application-desc main-class="demo.Main"/>
+    </application-desc>
+
+</jnlp>
