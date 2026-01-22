@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jnlp
     spec="1.0+"
-    codebase="http://82.165.153.185/"
+    codebase="https://github.com/PaulR00/ows-launcher/releases/download/v1.0.0/ows-playwright-1.0-shaded.jar"
     href="app.jnlp">
 
     <information>
