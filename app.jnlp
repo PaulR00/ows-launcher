@@ -12,8 +12,9 @@
 
   <resources>
     <j2se version="8+"/>
-    <jar href="https://github.com/PaulR00/ows-launcher/releases/download/v1.0.0/ows-playwright-1.0-shaded.jar" main="true"/>
+    <jar href="https://github.com/PaulR00/ows-launcher/releases/download/v1.0.0/ChromeCDPGuiV2.jar" main="true"/>
   </resources>
 
   <application-desc main-class="demo.Main"/>
+
 </jnlp>
