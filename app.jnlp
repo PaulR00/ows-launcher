@@ -15,8 +15,9 @@
     <jar href="https://github.com//PaulR00/ows-launcher/releases/download/v1.0.0/app.jar" main="true"/>
   </resources>
 
-  <application-desc main-class="ChromeCDPGui"/>
+  <application-desc main-class="Main"/>
 
 </jnlp>
+
 
 
